@@ -3,33 +3,46 @@
 /* https://images.pexels.com/photos/300332/pexels-photo-300332.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb */
 /* https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb */
 
-.wrapper{
-	padding: 0px;
+#nav-bar{
+	width: 100%;
+	position: fixed;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 1.8rem;
+	z-index: 3;
+	background-color: rgba(204, 214, 209, .3);
 }
-.main{
+
+#main-link, #projects-link, #skills-link, #about-me-link, #contact-link{
+	color: white;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+	font-family: 'Scope One', serif;
+}
+
+#main-link:hover, #projects-link:hover, #skills-link:hover, #about-me-link:hover, #contact-link:hover{
+	font-size: 115%;
+	text-decoration: none;
+}
+
+#main{
 	background-color: #6A7B76;
     background: url('https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-size: cover;
-    background-repeat: no-repeat;
     height: 60rem;
+    padding-top: 5rem;
     padding-left: 0px;
     padding-right: 0px;
+    width: 100%
 	
 }
 
 .gap{
 	background-color: rgba(176,178,184,.3);
 	height: 40rem;
-
+	/* position: fixed; */
 }
 
-#chevron{
-	left: 50%;
-	height: 8rem;
-	position: absolute;
-	bottom: 2rem;
-	position: fixed;
-}
 
 h1{
 	font-size: 8rem;
@@ -38,46 +51,98 @@ h1{
 	text-shadow: .1rem .1rem black;
 }
 
-h2#main{
+#title{
 	font-family: 'Shojumaru', cursive;
 	color: white;
 	text-shadow: .3rem .2rem black;
 
 }
 
-img{
+#main-image{
 	border-radius: 50%;
 	height: 25rem;
 }
 
-.second-main{
-	background-color: #59544B;
-	height: 100vh;
+#projects-title{
+	padding-left: 15px;
+	font-family: 'IM Fell English SC', serif;
+}
 
+#projects-content{
+	text-align: center;
+}
+
+#focus-image{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#focus-image img{
+	height: 41rem;
+	width: 41rem;
+}
+
+#choose-image{
+	padding-bottom: 25px;
+}
+#choose-image-1 img, #choose-image-2 img, #choose-image-3 img{
+	height: 28rem;
+	width: 28rem;
+}
+
+.second-main{
+	background: url('http://fondopantalla.com.es/download/367/1280x720/crop/fondo-pantalla-madera-vieja.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .content{
 	color: white;
 }
 
+#skills-title{
+	padding-left: 15px;
+	color: white;
+	font-family: 'IM Fell English SC', serif;
+
+
+}
+
 .third-main{
-	background-color: #A2ABB5;
-	height: 100vh;
+	background: url('http://moheban-ahlebeit.com/images/Dark-Grey-Wallpapers/Dark-Grey-Wallpapers-27.jpg');
+	background-size: cover;
+
+}
+
+#about-me-title{
+	text-align: center;
+	font-family: 'IM Fell English SC', serif;
 
 }
 
 .fourth-main{
 	background-color: #FF8552;
-	height: 100vh;
+}
+
+#contact-title{
+	padding-left: 15px;
+	color: white;
+	font-family: 'IM Fell English SC', serif;
+
 }
 
 .fifth-main{
 	background-color: #8FB339;
-	height: 100vh;
+	height: 75vh;
+	background: url('https://images.pexels.com/photos/309166/pexels-photo-309166.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+	background-size: cover;
 }
 
 .icon-1, .icon-2, .icon-3{
 	padding-bottom: 15rem;
+	color: #38A700;
+}
+.icon-1{
+	color: #38A700;
 }
 
 i {
